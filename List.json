@@ -1,0 +1,1268 @@
+[
+  {
+    "acronym": "AAA",
+    "full_name": "Authentication, Authorization, and Accounting",
+    "category": "Identity & Access",
+    "description": "Sicherheitsmodell für die Identifizierung, Berechtigung und Nachverfolgung von Benutzern."
+  },
+  {
+    "acronym": "ABAC",
+    "full_name": "Attribute Based Access Control",
+    "category": "Identity & Access",
+    "description": "Steuert Zugriffe anhand von Attributen der Person, Ressource, Aktion und Umgebung."
+  },
+  {
+    "acronym": "ACL",
+    "full_name": "Access Control List",
+    "category": "Identity & Access",
+    "description": "Regelsatz, der Zugriffsrechte für Benutzer oder Systeme auf eine Ressource festlegt."
+  },
+  {
+    "acronym": "AES",
+    "full_name": "Advanced Encryption Standard",
+    "category": "Cryptography",
+    "description": "Symmetrisches Verschlüsselungsverfahren mit hoher Sicherheit und breiter Verwendung."
+  },
+  {
+    "acronym": "AIS",
+    "full_name": "Automated Indicator Sharing",
+    "category": "Cloud & Network",
+    "description": "CISA-Dienst für den zeitnahen Austausch maschinenlesbarer Bedrohungsindikatoren und Gegenmaßnahmen."
+  },
+  {
+    "acronym": "APT",
+    "full_name": "Advanced Persistent Threat",
+    "category": "Vulnerability Management",
+    "description": "Langanhaltender, gezielter Angriff, bei dem Angreifer unentdeckt in einem System verbleiben."
+  },
+  {
+    "acronym": "ARP",
+    "full_name": "Address Resolution Protocol",
+    "category": "Cloud & Network",
+    "description": "Ordnet IPv4-Adressen innerhalb eines lokalen Netzes den zugehörigen MAC-Adressen zu."
+  },
+  {
+    "acronym": "ASLR",
+    "full_name": "Address Space Layout Randomization",
+    "category": "Cloud & Network",
+    "description": "Erschwert Speicherangriffe, indem Adressbereiche eines Programms zufällig angeordnet werden."
+  },
+  {
+    "acronym": "BCP",
+    "full_name": "Business Continuity Planning",
+    "category": "Business Continuity",
+    "description": "Plan zur Aufrechterhaltung oder schnellen Wiederherstellung geschäftskritischer Prozesse nach Störungen."
+  },
+  {
+    "acronym": "BPDU Guard",
+    "full_name": "Bridge Protocol Data Unit Guard",
+    "category": "Cloud & Network",
+    "description": "Schaltet einen Port ab, wenn unerwartete BPDU-Nachrichten die Spanning-Tree-Topologie gefährden könnten."
+  },
+  {
+    "acronym": "BIA",
+    "full_name": "Business Impact Analysis",
+    "category": "Business Continuity",
+    "description": "Ermittelt betriebliche und finanzielle Folgen von Ausfällen sowie die Wiederherstellungsprioritäten."
+  },
+  {
+    "acronym": "BIOS",
+    "full_name": "Basic Input/Output System",
+    "category": "Endpoint & Systems",
+    "description": "System-Firmware, die Hardware initialisiert und den Start des Betriebssystems vorbereitet."
+  },
+  {
+    "acronym": "BLOB",
+    "full_name": "Binary Large Object",
+    "category": "Data Security",
+    "description": "Speichereinheit für große, unstrukturierte Binär- oder Textdaten."
+  },
+  {
+    "acronym": "BPA",
+    "full_name": "Business Partnership Agreement",
+    "category": "Governance & Compliance",
+    "description": "Vertrag, der Beiträge, Verantwortlichkeiten und Gewinnverteilung von Geschäftspartnern regelt."
+  },
+  {
+    "acronym": "BYOD",
+    "full_name": "Bring Your Own Device",
+    "category": "Governance & Compliance",
+    "description": "Richtlinie, die die geschäftliche Nutzung privater Geräte unter Sicherheitsvorgaben erlaubt."
+  },
+  {
+    "acronym": "CA",
+    "full_name": "Certificate Authority",
+    "category": "Identity & Access",
+    "description": "Vertrauenswürdige Instanz, die digitale Zertifikate ausstellt und Identitäten bestätigt."
+  },
+  {
+    "acronym": "CAC",
+    "full_name": "Common Access Card",
+    "category": "Identity & Access",
+    "description": "US-amerikanische Smartcard zur Identifikation und Authentisierung von Verteidigungsangehörigen."
+  },
+  {
+    "acronym": "CASB",
+    "full_name": "Cloud Access Security Broker",
+    "category": "Cloud & Network",
+    "description": "Sicherheitsstelle zwischen Cloud-Nutzern und Diensten zur Durchsetzung von Richtlinien."
+  },
+  {
+    "acronym": "CAPTCHA",
+    "full_name": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+    "category": "Web & Application",
+    "description": "Test, der automatisierte Zugriffe von menschlichen Nutzern unterscheiden soll."
+  },
+  {
+    "acronym": "CBC",
+    "full_name": "Cipher Block Chaining",
+    "category": "Cryptography",
+    "description": "Blockchiffre-Betriebsart, bei der Blöcke vor der Verschlüsselung mit dem vorherigen Block bzw. IV verknüpft werden."
+  },
+  {
+    "acronym": "CER",
+    "full_name": "Certificate",
+    "category": "Cryptography",
+    "description": "Digitales Zertifikat oder Zertifikatsdatei zur Bestätigung einer Identität oder eines öffentlichen Schlüssels."
+  },
+  {
+    "acronym": "CHAP",
+    "full_name": "Challenge Handshake Authentication Protocol",
+    "category": "Identity & Access",
+    "description": "Challenge-Response-Authentisierung, die ein gemeinsames Geheimnis prüft, ohne ein Passwort zu übertragen."
+  },
+  {
+    "acronym": "CIA",
+    "full_name": "Confidentiality, Integrity, and Availability",
+    "category": "Technology & Standards",
+    "description": "Die drei grundlegenden Sicherheitsziele Vertraulichkeit, Integrität und Verfügbarkeit."
+  },
+  {
+    "acronym": "CIRT",
+    "full_name": "Computer Incident Response Team",
+    "category": "Monitoring & Operations",
+    "description": "Team zur Koordination der Erkennung, Untersuchung, Eindämmung und Behebung von Sicherheitsvorfällen."
+  },
+  {
+    "acronym": "COPE",
+    "full_name": "Corporate-Owned, Personally-Enabled",
+    "category": "Governance & Compliance",
+    "description": "Richtlinie für firmeneigene Geräte, die zusätzlich privat genutzt werden dürfen."
+  },
+  {
+    "acronym": "CRC",
+    "full_name": "Cyclic Redundancy Check",
+    "category": "Technology & Standards",
+    "description": "Prüfverfahren, das Übertragungs- und Speicherfehler anhand eines Restwerts erkennt."
+  },
+  {
+    "acronym": "CRL",
+    "full_name": "Certificate Revocation List",
+    "category": "Identity & Access",
+    "description": "Von einer Zertifizierungsstelle veröffentlichte Liste widerrufener digitaler Zertifikate."
+  },
+  {
+    "acronym": "CSA",
+    "full_name": "Cloud Security Alliance",
+    "category": "Governance & Compliance",
+    "description": "Gemeinnützige Organisation, die Empfehlungen und Ressourcen für sichere Cloud-Nutzung bereitstellt."
+  },
+  {
+    "acronym": "CSRF",
+    "full_name": "Cross-Site Request Forgery",
+    "category": "Vulnerability Management",
+    "description": "Angriff, der einen bereits authentisierten Nutzer zu unbeabsichtigten Webaktionen verleitet."
+  },
+  {
+    "acronym": "CSO",
+    "full_name": "Chief Security Officer",
+    "category": "Governance & Compliance",
+    "description": "Führungskraft, die für Sicherheitsstrategie, -programm und -risiken einer Organisation verantwortlich ist."
+  },
+  {
+    "acronym": "CSP",
+    "full_name": "Cloud Service Provider",
+    "category": "Cloud & Network",
+    "description": "Anbieter, der skalierbare Cloud-Infrastruktur, Plattformen oder Anwendungen bereitstellt."
+  },
+  {
+    "acronym": "CSR",
+    "full_name": "Certificate Signing Request",
+    "category": "Identity & Access",
+    "description": "Anfrage an eine Zertifizierungsstelle zur Ausstellung eines digitalen Zertifikats."
+  },
+  {
+    "acronym": "CSV",
+    "full_name": "Comma Separated Values",
+    "category": "Data Security",
+    "description": "Einfaches Textformat, in dem tabellarische Werte durch Kommas getrennt und zeilenweise gespeichert werden."
+  },
+  {
+    "acronym": "CVE",
+    "full_name": "Common Vulnerabilities and Exposures",
+    "category": "Vulnerability Management",
+    "description": "Standardisierte Kennung und öffentliches Verzeichnis bekannter Sicherheitslücken und Exposures."
+  },
+  {
+    "acronym": "CVSS",
+    "full_name": "Common Vulnerability Scoring System",
+    "category": "Vulnerability Management",
+    "description": "Standardisiertes Punktesystem zur Bewertung der technischen Schwere von Sicherheitslücken."
+  },
+  {
+    "acronym": "CYOD",
+    "full_name": "Choose Your Own Device",
+    "category": "Governance & Compliance",
+    "description": "Gerätemodell, bei dem Mitarbeitende aus einer vom Unternehmen vorgegebenen Auswahl wählen."
+  },
+  {
+    "acronym": "DAC",
+    "full_name": "Discretionary Access Control",
+    "category": "Identity & Access",
+    "description": "Zugriffsmodell, bei dem Eigentümer selbst entscheiden, wer auf Ressourcen zugreifen darf."
+  },
+  {
+    "acronym": "DDoS",
+    "full_name": "Distributed Denial of Service",
+    "category": "Vulnerability Management",
+    "description": "Gezielte Überlastung eines Dienstes durch Datenverkehr von vielen verteilten Systemen."
+  },
+  {
+    "acronym": "DES",
+    "full_name": "Data Encryption Standard",
+    "category": "Cryptography",
+    "description": "Veraltete symmetrische Blockchiffre mit 56-Bit-Schlüsseln, die heute als unsicher gilt."
+  },
+  {
+    "acronym": "DHCP",
+    "full_name": "Dynamic Host Configuration Protocol",
+    "category": "Cloud & Network",
+    "description": "Weist Geräten automatisch IP-Adressen, Gateways, DNS-Server und weitere Netzeinstellungen zu."
+  },
+  {
+    "acronym": "DMZ",
+    "full_name": "Demilitarized Zone",
+    "category": "Cloud & Network",
+    "description": "Abgeschottetes Netzwerksegment für öffentlich erreichbare, aber vom internen Netz getrennte Dienste."
+  },
+  {
+    "acronym": "DNS",
+    "full_name": "Domain Name System",
+    "category": "Cloud & Network",
+    "description": "Hierarchisches Namenssystem, das Domainnamen in IP-Adressen und andere Ressourceneinträge auflöst."
+  },
+  {
+    "acronym": "DoS",
+    "full_name": "Denial of Service",
+    "category": "Vulnerability Management",
+    "description": "Angriff oder Störung, die ein System durch Überlastung oder Fehlfunktion nicht verfügbar macht."
+  },
+  {
+    "acronym": "DPO",
+    "full_name": "Data Protection Officer",
+    "category": "Governance & Compliance",
+    "description": "Verantwortliche Person für Datenschutzüberwachung, Beratung und die Einhaltung der Datenschutzvorgaben."
+  },
+  {
+    "acronym": "DRP",
+    "full_name": "Disaster Recovery Plan",
+    "category": "Business Continuity",
+    "description": "Dokumentierter Plan zur Wiederherstellung von IT-Systemen und Daten nach einem Ausfall oder Desaster."
+  },
+  {
+    "acronym": "EAP",
+    "full_name": "Extensible Authentication Protocol",
+    "category": "Identity & Access",
+    "description": "Erweiterbares Authentisierungsframework, etwa für IEEE 802.1X und drahtlose Netze."
+  },
+  {
+    "acronym": "EFS",
+    "full_name": "Encrypting File System",
+    "category": "Data Security",
+    "description": "Windows-Funktion zur verschlüsselten Speicherung von Dateien über NTFS und Benutzerzertifikate."
+  },
+  {
+    "acronym": "EMI",
+    "full_name": "Electromagnetic Interference",
+    "category": "Endpoint & Systems",
+    "description": "Elektromagnetische Störung, die Signale oder elektronische Geräte beeinträchtigen kann."
+  },
+  {
+    "acronym": "EMP",
+    "full_name": "Electromagnetic Pulse",
+    "category": "Endpoint & Systems",
+    "description": "Plötzlicher elektromagnetischer Impuls, der elektronische und elektrische Systeme beschädigen kann."
+  },
+  {
+    "acronym": "ESP",
+    "full_name": "Encapsulating Security Payload",
+    "category": "Cryptography",
+    "description": "IPsec-Protokoll für Vertraulichkeit, Integritätsprüfung und Authentisierung von Paketdaten."
+  },
+  {
+    "acronym": "FAR",
+    "full_name": "False Acceptance Rate",
+    "category": "Identity & Access",
+    "description": "Anteil unberechtigter Personen oder Versuche, die fälschlich akzeptiert werden."
+  },
+  {
+    "acronym": "FDE",
+    "full_name": "Full Disk Encryption",
+    "category": "Data Security",
+    "description": "Verschlüsselt ein ganzes Speichermedium einschließlich Betriebssystem, Programmen und Nutzerdaten."
+  },
+  {
+    "acronym": "FISMA",
+    "full_name": "Federal Information Security Management Act",
+    "category": "Governance & Compliance",
+    "description": "US-Gesetz, das Bundesbehörden zu dokumentierten Informationssicherheitsprogrammen verpflichtet."
+  },
+  {
+    "acronym": "FRR",
+    "full_name": "False Rejection Rate",
+    "category": "Identity & Access",
+    "description": "Anteil berechtigter Personen oder Versuche, die fälschlich abgewiesen werden."
+  },
+  {
+    "acronym": "FTP",
+    "full_name": "File Transfer Protocol",
+    "category": "Web & Application",
+    "description": "Unverschlüsseltes Netzwerkprotokoll zum Übertragen von Dateien, standardmäßig über Port 21."
+  },
+  {
+    "acronym": "GDPR",
+    "full_name": "General Data Protection Regulation",
+    "category": "Governance & Compliance",
+    "description": "EU-Verordnung zum Schutz personenbezogener Daten und zur Regelung ihrer rechtmäßigen Verarbeitung."
+  },
+  {
+    "acronym": "GPS",
+    "full_name": "Global Positioning System",
+    "category": "Endpoint & Systems",
+    "description": "Satellitengestütztes System zur weltweiten Positions- und Zeitbestimmung."
+  },
+  {
+    "acronym": "GRE",
+    "full_name": "Generic Routing Encapsulation",
+    "category": "Cloud & Network",
+    "description": "Tunneling-Protokoll, das Pakete eines Protokolls in Pakete eines anderen Protokolls kapselt."
+  },
+  {
+    "acronym": "GBAC",
+    "full_name": "Group Based Access Control",
+    "category": "Identity & Access",
+    "description": "Steuert Zugriffe anhand der Zugehörigkeit einer Person zu einer Gruppe."
+  },
+  {
+    "acronym": "HMAC",
+    "full_name": "Hash-based Message Authentication Code",
+    "category": "Cryptography",
+    "description": "Nachrichten-Authentisierungscode aus Hashfunktion und geheimem Schlüssel."
+  },
+  {
+    "acronym": "HIDS",
+    "full_name": "Host Intrusion Detection System",
+    "category": "Monitoring & Operations",
+    "description": "Überwacht ein einzelnes Hostsystem auf verdächtige Aktivitäten oder unzulässige Änderungen."
+  },
+  {
+    "acronym": "HIPAA",
+    "full_name": "Health Insurance Portability And Accountability Act",
+    "category": "Governance & Compliance",
+    "description": "US-Gesetz zum Schutz und zur sicheren Verarbeitung medizinischer und patientenbezogener Daten."
+  },
+  {
+    "acronym": "HOTP",
+    "full_name": "HMAC-based One-Time Password",
+    "category": "Cryptography",
+    "description": "Einmalpasswort, das für jeden Anmeldevorgang aus einem HMAC und Zähler erzeugt wird."
+  },
+  {
+    "acronym": "HSM",
+    "full_name": "Hardware Security Module",
+    "category": "Cryptography",
+    "description": "Spezialhardware zum sicheren Erzeugen, Speichern und Nutzen kryptografischer Schlüssel."
+  },
+  {
+    "acronym": "HSTS",
+    "full_name": "HTTP Strict Transport Security",
+    "category": "Web & Application",
+    "description": "Webrichtlinie, die Browser zwingt, eine Website ausschließlich über HTTPS aufzurufen."
+  },
+  {
+    "acronym": "HTML",
+    "full_name": "Hypertext Markup Language",
+    "category": "Web & Application",
+    "description": "Auszeichnungssprache zur Strukturierung von Inhalten und Elementen auf Webseiten."
+  },
+  {
+    "acronym": "HTTP",
+    "full_name": "Hypertext Transfer Protocol",
+    "category": "Web & Application",
+    "description": "Anwendungsprotokoll für Anfragen und Antworten im Web, üblicherweise über Port 80."
+  },
+  {
+    "acronym": "HTTPS",
+    "full_name": "Hypertext Transfer Protocol Secure",
+    "category": "Web & Application",
+    "description": "Über TLS geschütztes HTTP, das Vertraulichkeit, Integrität und Serverauthentisierung bietet."
+  },
+  {
+    "acronym": "IaaS",
+    "full_name": "Infrastructure as a Service",
+    "category": "Cloud & Network",
+    "description": "Cloud-Modell, bei dem virtuelle Rechenleistung, Speicher und Netzwerkdienste bereitgestellt werden."
+  },
+  {
+    "acronym": "IAM",
+    "full_name": "Identity and Access Management",
+    "category": "Identity & Access",
+    "description": "Verwaltet digitale Identitäten, Authentisierung und Berechtigungen für Organisationsressourcen."
+  },
+  {
+    "acronym": "ICMP",
+    "full_name": "Internet Control Message Protocol",
+    "category": "Cloud & Network",
+    "description": "Netzwerkprotokoll zur Diagnose, Fehlerrückmeldung und Kontrolle der IP-Erreichbarkeit."
+  },
+  {
+    "acronym": "IDS",
+    "full_name": "Intrusion Detection System",
+    "category": "Monitoring & Operations",
+    "description": "Erkennt verdächtige Aktivitäten und erzeugt Warnmeldungen, blockiert sie aber nicht zwangsläufig."
+  },
+  {
+    "acronym": "IPS",
+    "full_name": "Intrusion Prevention System",
+    "category": "Monitoring & Operations",
+    "description": "Erkennt und blockiert verdächtige Netzwerkaktivitäten aktiv, etwa durch das Verwerfen von Paketen."
+  },
+  {
+    "acronym": "IEEE",
+    "full_name": "Institute of Electrical and Electronics Engineers",
+    "category": "Technology & Standards",
+    "description": "Berufsverband und Standardisierungsorganisation für Elektrotechnik, Elektronik und Informatik."
+  },
+  {
+    "acronym": "IKE",
+    "full_name": "Internet Key Exchange",
+    "category": "Cryptography",
+    "description": "Aushandelt Schlüssel und Sicherheitsparameter für authentisierte IPsec-Kommunikation."
+  },
+  {
+    "acronym": "IMAP",
+    "full_name": "Internet Message Access Protocol",
+    "category": "Web & Application",
+    "description": "Protokoll zum Abrufen und Verwalten von E-Mails auf einem Mailserver, üblicherweise über Port 143."
+  },
+  {
+    "acronym": "IoT",
+    "full_name": "Internet of Things",
+    "category": "Endpoint & Systems",
+    "description": "Verbundene physische Geräte, die Daten erfassen, austauschen oder Aktionen ausführen."
+  },
+  {
+    "acronym": "IP",
+    "full_name": "Internet Protocol",
+    "category": "Cryptography",
+    "description": "Netzwerkprotokoll zur Adressierung und Weiterleitung von Datenpaketen zwischen Netzen."
+  },
+  {
+    "acronym": "IPv4",
+    "full_name": "Internet Protocol version 4",
+    "category": "Technology & Standards",
+    "description": "Internetprotokoll mit 32-Bit-Adressen und damit etwa 4,3 Milliarden eindeutigen Adressen."
+  },
+  {
+    "acronym": "IPv6",
+    "full_name": "Internet Protocol version 6",
+    "category": "Technology & Standards",
+    "description": "Nachfolger von IPv4 mit 128-Bit-Adressen und einem deutlich größeren Adressraum."
+  },
+  {
+    "acronym": "ISA",
+    "full_name": "Interconnection Security Agreement",
+    "category": "Governance & Compliance",
+    "description": "Regelt Sicherheitsanforderungen und Verantwortlichkeiten für die Verbindung zweier Systeme."
+  },
+  {
+    "acronym": "ISO",
+    "full_name": "International Organization for Standardization",
+    "category": "Governance & Compliance",
+    "description": "Internationale Organisation zur Entwicklung und Veröffentlichung übergreifender Normen."
+  },
+  {
+    "acronym": "ISP",
+    "full_name": "Internet Service Provider",
+    "category": "Technology & Standards",
+    "description": "Unternehmen, das privaten oder geschäftlichen Nutzern Zugang zum Internet bereitstellt."
+  },
+  {
+    "acronym": "JSON",
+    "full_name": "JavaScript Object Notation",
+    "category": "Data Security",
+    "description": "Leichtgewichtiges, textbasiertes Datenformat aus Objekten, Arrays und einfachen Werten."
+  },
+  {
+    "acronym": "LDAP",
+    "full_name": "Lightweight Directory Access Protocol",
+    "category": "Data Security",
+    "description": "Protokoll zum Abfragen und Ändern von Verzeichnisdaten wie Benutzern, Gruppen und Geräten."
+  },
+  {
+    "acronym": "MAC",
+    "full_name": "Mandatory Access Control",
+    "category": "Identity & Access",
+    "description": "Erzwingt Zugriffe anhand zentral vorgegebener Sicherheitskennzeichnungen und Freigabestufen."
+  },
+  {
+    "acronym": "MCSP",
+    "full_name": "Managed Cloud Service Provider",
+    "category": "Cloud & Network",
+    "description": "Dienstleister, der Cloud-Ressourcen übernimmt, betreibt und kontinuierlich verwaltet."
+  },
+  {
+    "acronym": "MFA",
+    "full_name": "Multi-Factor Authentication",
+    "category": "Identity & Access",
+    "description": "Authentisierung mit mindestens zwei unabhängigen Faktoren aus Wissen, Besitz oder Inhärenz."
+  },
+  {
+    "acronym": "MITB",
+    "full_name": "Man In The Browser",
+    "category": "Vulnerability Management",
+    "description": "Malware greift im Webbrowser vertrauliche Daten ab oder manipuliert Transaktionen des Nutzers."
+  },
+  {
+    "acronym": "MITM",
+    "full_name": "Man-in-the-Middle",
+    "category": "Vulnerability Management",
+    "description": "Angreifer schaltet sich zwischen Kommunikationspartner, um Daten mitzulesen oder zu verändern."
+  },
+  {
+    "acronym": "MSSP",
+    "full_name": "Managed Security Service Provider",
+    "category": "Monitoring & Operations",
+    "description": "Dienstleister, der Sicherheitsüberwachung und weitere Security-Leistungen als Service anbietet."
+  },
+  {
+    "acronym": "MTBF",
+    "full_name": "Mean Time Between Failures",
+    "category": "Business Continuity",
+    "description": "Durchschnittliche Betriebszeit eines Systems zwischen zwei Ausfällen."
+  },
+  {
+    "acronym": "MTTD",
+    "full_name": "Mean Time To Detect",
+    "category": "Business Continuity",
+    "description": "Durchschnittliche Zeit von einem Sicherheitsereignis bis zu seiner Entdeckung."
+  },
+  {
+    "acronym": "MTTR",
+    "full_name": "Mean Time to Repair",
+    "category": "Business Continuity",
+    "description": "Durchschnittliche Zeit zur Reparatur oder Wiederherstellung eines ausgefallenen Systems."
+  },
+  {
+    "acronym": "NAC",
+    "full_name": "Network Access Control",
+    "category": "Identity & Access",
+    "description": "Prüft Benutzer und Geräte vor oder bei der Zulassung zu Netzwerkressourcen."
+  },
+  {
+    "acronym": "NAT",
+    "full_name": "Network Address Translation",
+    "category": "Cloud & Network",
+    "description": "Übersetzt private und öffentliche IP-Adressen und kann mehrere Geräte über eine Adresse verbinden."
+  },
+  {
+    "acronym": "NDA",
+    "full_name": "Non-Disclosure Agreement",
+    "category": "Governance & Compliance",
+    "description": "Vertrag, der Empfänger zur Geheimhaltung bestimmter vertraulicher Informationen verpflichtet."
+  },
+  {
+    "acronym": "NFC",
+    "full_name": "Near Field Communication",
+    "category": "Endpoint & Systems",
+    "description": "Drahtlose Nahfeldtechnik für die Datenübertragung über wenige Zentimeter."
+  },
+  {
+    "acronym": "NIDS",
+    "full_name": "Network Intrusion Detection System",
+    "category": "Monitoring & Operations",
+    "description": "Überwacht Netzwerkverkehr auf verdächtige oder unerlaubte Aktivitäten."
+  },
+  {
+    "acronym": "NIPS",
+    "full_name": "Network Intrusion Prevention System",
+    "category": "Monitoring & Operations",
+    "description": "Erkennt und verhindert aktive Angriffe direkt im Netzwerkverkehr."
+  },
+  {
+    "acronym": "NIST",
+    "full_name": "National Institute of Standards and Technology",
+    "category": "Governance & Compliance",
+    "description": "US-Behörde, die Standards, Richtlinien und Messverfahren für Technik und Cybersicherheit entwickelt."
+  },
+  {
+    "acronym": "NTFS",
+    "full_name": "New Technology File System",
+    "category": "Data Security",
+    "description": "Windows-Dateisystem mit Metadaten, Berechtigungen, Verschlüsselung und Journaling."
+  },
+  {
+    "acronym": "OAuth",
+    "full_name": "Open Authorization",
+    "category": "Web & Application",
+    "description": "Autorisierungsstandard, mit dem Anwendungen begrenzten Zugriff erhalten, ohne Passwörter auszutauschen."
+  },
+  {
+    "acronym": "OCSP",
+    "full_name": "Online Certificate Status Protocol",
+    "category": "Identity & Access",
+    "description": "Prüft den aktuellen Widerrufsstatus eines digitalen Zertifikats bei einem Statusdienst."
+  },
+  {
+    "acronym": "OSI",
+    "full_name": "Open Systems Interconnection",
+    "category": "Cloud & Network",
+    "description": "Referenzmodell, das Netzwerkkommunikation in sieben funktionale Schichten gliedert."
+  },
+  {
+    "acronym": "PaaS",
+    "full_name": "Platform as a Service",
+    "category": "Cloud & Network",
+    "description": "Cloud-Modell, das eine verwaltete Laufzeit- und Entwicklungsplattform für Anwendungen bereitstellt."
+  },
+  {
+    "acronym": "PAM",
+    "full_name": "Privileged Access Management",
+    "category": "Identity & Access",
+    "description": "Verwaltet, überwacht und schützt privilegierte Konten, Sitzungen und administrative Rechte."
+  },
+  {
+    "acronym": "PCI DSS",
+    "full_name": "Payment Card Industry Data Security Standard",
+    "category": "Governance & Compliance",
+    "description": "Sicherheitsstandard zum Schutz von Karteninhaberdaten in Zahlungssystemen."
+  },
+  {
+    "acronym": "PGP",
+    "full_name": "Pretty Good Privacy",
+    "category": "Cryptography",
+    "description": "Hybrides Kryptosystem zum Verschlüsseln und digitalen Signieren von Nachrichten und Dateien."
+  },
+  {
+    "acronym": "PMF",
+    "full_name": "Protected Management Frames",
+    "category": "Endpoint & Systems",
+    "description": "Schützt WLAN-Managementrahmen vor Fälschung, Trennung und ausgewählten Denial-of-Service-Angriffen."
+  },
+  {
+    "acronym": "POP3",
+    "full_name": "Post Office Protocol version 3",
+    "category": "Web & Application",
+    "description": "Protokoll zum Herunterladen von E-Mails von einem Server, standardmäßig über Port 110."
+  },
+  {
+    "acronym": "PPP",
+    "full_name": "Point-to-Point Protocol",
+    "category": "Web & Application",
+    "description": "Protokoll zum Aufbau einer direkten Verbindung und zum Transport verschiedener Netzprotokolle."
+  },
+  {
+    "acronym": "RAID",
+    "full_name": "Redundant Array of Independent Disks",
+    "category": "Technology & Standards",
+    "description": "Kombiniert mehrere Datenträger für höhere Leistung, Kapazität oder Ausfallsicherheit."
+  },
+  {
+    "acronym": "RADIUS",
+    "full_name": "Remote Authentication Dial-In User Service",
+    "category": "Identity & Access",
+    "description": "Zentralisiert AAA-Dienste für den Zugriff auf Netzwerkgeräte und -dienste."
+  },
+  {
+    "acronym": "RAM",
+    "full_name": "Random Access Memory",
+    "category": "Endpoint & Systems",
+    "description": "Flüchtiger Arbeitsspeicher, den Prozessoren für aktuell benötigte Daten und Programme verwenden."
+  },
+  {
+    "acronym": "RAT",
+    "full_name": "Remote Access Trojan",
+    "category": "Vulnerability Management",
+    "description": "Schadsoftware, die Angreifern dauerhafte Fernkontrolle über ein kompromittiertes System erlaubt."
+  },
+  {
+    "acronym": "RDP",
+    "full_name": "Remote Desktop Protocol",
+    "category": "Cloud & Network",
+    "description": "Microsoft-Protokoll zum grafischen Fernzugriff und zur Steuerung eines Windows-Systems."
+  },
+  {
+    "acronym": "REST",
+    "full_name": "Representational State Transfer",
+    "category": "Web & Application",
+    "description": "Architekturstil für zustandsarme Webdienste, meist über standardisierte HTTP-Operationen."
+  },
+  {
+    "acronym": "RFID",
+    "full_name": "Radio Frequency Identification",
+    "category": "Endpoint & Systems",
+    "description": "Identifiziert und verfolgt Objekte drahtlos mithilfe von elektromagnetischen Feldern."
+  },
+  {
+    "acronym": "RIPEMD",
+    "full_name": "RACE Integrity Primitives Evaluation Message Digest",
+    "category": "Cryptography",
+    "description": "Familie kryptografischer Hashfunktionen zur Bildung fester Prüfsummen."
+  },
+  {
+    "acronym": "RTO",
+    "full_name": "Recovery Time Objective",
+    "category": "Business Continuity",
+    "description": "Maximal zulässige Zeit bis zur Wiederherstellung eines Systems nach einer Unterbrechung."
+  },
+  {
+    "acronym": "RTOS",
+    "full_name": "Real Time Operating System",
+    "category": "Endpoint & Systems",
+    "description": "Betriebssystem mit bestimmbaren, zeitkritischen Reaktionszeiten für Echtzeitanwendungen."
+  },
+  {
+    "acronym": "RBAC",
+    "full_name": "Role-Based Access Control",
+    "category": "Identity & Access",
+    "description": "Weist Berechtigungen anhand vordefinierter Organisationsrollen statt einzelner Benutzer zu."
+  },
+  {
+    "acronym": "S/MIME",
+    "full_name": "Secure/Multipurpose Internet Mail Extensions",
+    "category": "Cryptography",
+    "description": "Verschlüsselt und signiert E-Mails auf Basis von Zertifikaten und PKI."
+  },
+  {
+    "acronym": "SAN",
+    "full_name": "Storage Area Network",
+    "category": "Cloud & Network",
+    "description": "Dediziertes Hochleistungsnetz, das Servern blockbasierten Speicher auf Speichersystemen bereitstellt."
+  },
+  {
+    "acronym": "SaaS",
+    "full_name": "Software as a Service",
+    "category": "Cloud & Network",
+    "description": "Cloud-Modell, bei dem vollständige Anwendungen über das Netzwerk bereitgestellt werden."
+  },
+  {
+    "acronym": "SAE",
+    "full_name": "Simultaneous Authentication of Equals",
+    "category": "Endpoint & Systems",
+    "description": "Passwortbasierter Schlüsselaustausch mit Schutz gegen Offline-Wörterbuchangriffe, insbesondere bei WPA3."
+  },
+  {
+    "acronym": "SATCOM",
+    "full_name": "Secure Satellite Communications",
+    "category": "Endpoint & Systems",
+    "description": "Kommunikation über Satelliten für Sprache, Daten und andere Übertragungen."
+  },
+  {
+    "acronym": "SCADA",
+    "full_name": "Supervisory Control and Data Acquisition",
+    "category": "Endpoint & Systems",
+    "description": "Überwacht und steuert industrielle Anlagen sowie kritische Prozesse zentral."
+  },
+  {
+    "acronym": "SCP",
+    "full_name": "Secure Copy Protocol",
+    "category": "Web & Application",
+    "description": "Veraltetes, auf SSH basierendes Verfahren zum sicheren Kopieren von Dateien."
+  },
+  {
+    "acronym": "SFTP",
+    "full_name": "Secure File Transfer Protocol",
+    "category": "Web & Application",
+    "description": "Auf SSH basierendes Protokoll für sichere Dateiübertragung und Dateiverwaltung."
+  },
+  {
+    "acronym": "SHA",
+    "full_name": "Secure Hash Algorithm",
+    "category": "Cryptography",
+    "description": "Familie kryptografischer Hashfunktionen zur Integritätsprüfung und digitalen Signatur."
+  },
+  {
+    "acronym": "SID",
+    "full_name": "Security Identifier",
+    "category": "Identity & Access",
+    "description": "Eindeutige Windows-Kennung für Benutzer, Gruppen und andere Sicherheitsprinzipale."
+  },
+  {
+    "acronym": "SIEM",
+    "full_name": "Security Information and Event Management",
+    "category": "Monitoring & Operations",
+    "description": "Sammelt, normalisiert und korreliert Sicherheitsereignisse zur Analyse und Alarmierung in Echtzeit."
+  },
+  {
+    "acronym": "SMTP",
+    "full_name": "Simple Mail Transfer Protocol",
+    "category": "Web & Application",
+    "description": "Internetprotokoll zum Versenden und Weiterleiten von E-Mails zwischen Servern."
+  },
+  {
+    "acronym": "SNMP",
+    "full_name": "Simple Network Management Protocol",
+    "category": "Monitoring & Operations",
+    "description": "Protokoll zur Überwachung und Verwaltung von Netzwerkgeräten und deren Status."
+  },
+  {
+    "acronym": "SOAR",
+    "full_name": "Security Orchestration, Automation and Response",
+    "category": "Monitoring & Operations",
+    "description": "Verknüpft Sicherheitswerkzeuge und automatisiert wiederkehrende Analyse- und Reaktionsprozesse."
+  },
+  {
+    "acronym": "SoC",
+    "full_name": "System on Chip",
+    "category": "Endpoint & Systems",
+    "description": "Integriert CPU, Speicher, Ein- und Ausgaben sowie weitere Komponenten auf einem einzigen Chip."
+  },
+  {
+    "acronym": "SQL",
+    "full_name": "Structured Query Language",
+    "category": "Data Security",
+    "description": "Sprache zum Abfragen, Einfügen, Ändern und Verwalten relationaler Daten."
+  },
+  {
+    "acronym": "SSH",
+    "full_name": "Secure Shell",
+    "category": "Web & Application",
+    "description": "Verschlüsselter Fernzugriff auf Systeme und sichere Übertragung, standardmäßig über Port 22."
+  },
+  {
+    "acronym": "SSL",
+    "full_name": "Secure Sockets Layer",
+    "category": "Cryptography",
+    "description": "Veraltetes Kryptografieprotokoll, dessen Rolle heute durch TLS übernommen wird."
+  },
+  {
+    "acronym": "STP",
+    "full_name": "Spanning Tree Protocol",
+    "category": "Cloud & Network",
+    "description": "Verhindert Schleifen in redundanten Layer-2-Netzen und legt logische Sperrpfade fest."
+  },
+  {
+    "acronym": "STIX",
+    "full_name": "Structured Threat Information Exchange",
+    "category": "Monitoring & Operations",
+    "description": "Strukturierte Sprache zum Austausch und zur Beschreibung von Cyber-Bedrohungsinformationen."
+  },
+  {
+    "acronym": "TACACS+",
+    "full_name": "Terminal Access Controller Access Control System Plus",
+    "category": "Identity & Access",
+    "description": "Protokoll zur zentralen Authentisierung, Autorisierung und Abrechnung administrativer Gerätezugriffe."
+  },
+  {
+    "acronym": "TAXII",
+    "full_name": "Trusted Automated Exchange of Indicator Information",
+    "category": "Monitoring & Operations",
+    "description": "Transportprotokoll zum automatisierten Austausch von STIX-Bedrohungsinformationen über HTTPS."
+  },
+  {
+    "acronym": "TCP",
+    "full_name": "Transmission Control Protocol",
+    "category": "Web & Application",
+    "description": "Verbindungsorientiertes, zuverlässiges Transportprotokoll mit Reihenfolge- und Verlustkontrolle."
+  },
+  {
+    "acronym": "TOTP",
+    "full_name": "Time-Based One-Time Password",
+    "category": "Cryptography",
+    "description": "Zeitbasiertes Einmalpasswort, das in kurzen Intervallen aus einem gemeinsamen Geheimnis erzeugt wird."
+  },
+  {
+    "acronym": "TPM",
+    "full_name": "Trusted Platform Module",
+    "category": "Cryptography",
+    "description": "Hardware-Sicherheitschip für Schlüssel, Messwerte und Integritätsprüfung beim sicheren Systemstart."
+  },
+  {
+    "acronym": "UBA",
+    "full_name": "User Behavior Analytics",
+    "category": "Monitoring & Operations",
+    "description": "Erkennt ungewöhnliche Benutzeraktivitäten anhand von Verhaltensmustern und Abweichungen."
+  },
+  {
+    "acronym": "UDP",
+    "full_name": "User Datagram Protocol",
+    "category": "Web & Application",
+    "description": "Verbindungsloses Transportprotokoll ohne Zustellungs- oder Reihenfolgegarantie."
+  },
+  {
+    "acronym": "UEFI",
+    "full_name": "Unified Extensible Firmware Interface",
+    "category": "Endpoint & Systems",
+    "description": "Moderne System-Firmware mit Treiber-, Boot- und Secure-Boot-Funktionen."
+  },
+  {
+    "acronym": "URL",
+    "full_name": "Uniform Resource Locator",
+    "category": "Web & Application",
+    "description": "Eindeutige Adresse, die Standort und Zugriffsart einer Ressource im Internet beschreibt."
+  },
+  {
+    "acronym": "VLAN",
+    "full_name": "Virtual Local Area Network",
+    "category": "Cloud & Network",
+    "description": "Logische Trennung eines physischen Netzes in mehrere unabhängige Broadcast-Domänen."
+  },
+  {
+    "acronym": "VM",
+    "full_name": "Virtual Machine",
+    "category": "Cloud & Network",
+    "description": "Softwarebasierter Computer, der Hardware virtualisiert und ein eigenes Betriebssystem ausführt."
+  },
+  {
+    "acronym": "VPN",
+    "full_name": "Virtual Private Network",
+    "category": "Cloud & Network",
+    "description": "Verschlüsselter Tunnel, der entfernte Geräte sicher über ein anderes Netzwerk verbindet."
+  },
+  {
+    "acronym": "VTP",
+    "full_name": "VLAN Trunking Protocol",
+    "category": "Cloud & Network",
+    "description": "Cisco-Protokoll zur Verteilung und Synchronisierung von VLAN-Konfigurationen zwischen Switches."
+  },
+  {
+    "acronym": "WAF",
+    "full_name": "Web Application Firewall",
+    "category": "Vulnerability Management",
+    "description": "Analysiert und filtert HTTP-Verkehr zum Schutz von Webanwendungen vor Angriffen."
+  },
+  {
+    "acronym": "WAP",
+    "full_name": "Wireless Access Point",
+    "category": "Cloud & Network",
+    "description": "Bereitstellungspunkt, über den drahtlose Endgeräte auf ein lokales Netzwerk zugreifen."
+  },
+  {
+    "acronym": "WEP",
+    "full_name": "Wired Equivalent Privacy",
+    "category": "Cloud & Network",
+    "description": "Veralteter WLAN-Verschlüsselungsstandard, der heute als unsicher gilt."
+  },
+  {
+    "acronym": "WIDS",
+    "full_name": "Wireless Intrusion Detection System",
+    "category": "Cloud & Network",
+    "description": "Erkennt verdächtige Geräte, Verbindungen und Angriffe in drahtlosen Netzen."
+  },
+  {
+    "acronym": "WPA",
+    "full_name": "Wi-Fi Protected Access",
+    "category": "Cloud & Network",
+    "description": "Familie von Sicherheitsstandards zum Schutz und zur Authentisierung drahtloser Netze."
+  },
+  {
+    "acronym": "X.509",
+    "full_name": "Public Key Certificate Standard",
+    "category": "Cryptography",
+    "description": "Standard für öffentliche Schlüsselzertifikate, Identitätsmerkmale und Zertifizierungsstellen."
+  },
+  {
+    "acronym": "XML",
+    "full_name": "Extensible Markup Language",
+    "category": "Data Security",
+    "description": "Auszeichnungssprache für hierarchisch strukturierte, menschen- und maschinenlesbare Daten."
+  },
+  {
+    "acronym": "XSS",
+    "full_name": "Cross-Site Scripting",
+    "category": "Vulnerability Management",
+    "description": "Angriff, bei dem schädlicher Browser-Code in Webseiten eingeschleust und im Kontext anderer Nutzer ausgeführt wird."
+  },
+  {
+    "acronym": "XHR",
+    "full_name": "XMLHttpRequest",
+    "category": "Web & Application",
+    "description": "Browser-API zum asynchronen Senden von HTTP-Anfragen und Empfangen von Serverantworten."
+  },
+  {
+    "acronym": "XDR",
+    "full_name": "Extended Detection and Response",
+    "category": "Monitoring & Operations",
+    "description": "Endpunktübergreifende Bedrohungserkennung und -reaktion über Netzwerk, Cloud und Endpoints hinweg."
+  },
+  {
+    "acronym": "SASE",
+    "full_name": "Secure Access Service Edge",
+    "category": "Cloud & Network",
+    "description": "Cloud-Architektur, die Netzwerkfunktionen (SD-WAN) mit Sicherheitsdiensten (SWG, CASB, ZTNA) kombiniert."
+  },
+  {
+    "acronym": "ZTNA",
+    "full_name": "Zero Trust Network Access",
+    "category": "Cloud & Network",
+    "description": "Sicherheitsmodell, das auf strikter Identitätsprüfung statt implizitem Netzwerkvertrauen basiert."
+  },
+  {
+    "acronym": "SAML",
+    "full_name": "Security Assertion Markup Language",
+    "category": "Identity & Access",
+    "description": "XML-basierter Standard für Single Sign-On (SSO) zwischen Identity Provider und Service Provider."
+  },
+  {
+    "acronym": "OIDC",
+    "full_name": "OpenID Connect",
+    "category": "Identity & Access",
+    "description": "Authentifizierungsschicht auf Basis von OAuth 2.0, die häufig JSON Web Tokens (JWT) nutzt."
+  },
+  {
+    "acronym": "RPO",
+    "full_name": "Recovery Point Objective",
+    "category": "Business Continuity",
+    "description": "Maximal tolerierbarer Datenverlust gemessen in Zeit (bestimmt die Backup-Frequenz)."
+  },
+  {
+    "acronym": "SLE",
+    "full_name": "Single Loss Expectancy",
+    "category": "Risk Management",
+    "description": "Erwarteter finanzieller Schaden bei einem einzelnen Eintritt eines bestimmten Risikos (Asset Value × Exposure Factor)."
+  },
+  {
+    "acronym": "ALE",
+    "full_name": "Annualized Loss Expectancy",
+    "category": "Risk Management",
+    "description": "Erwarteter jährlicher Gesamtschaden durch ein Risiko (SLE × Annualized Rate of Occurrence)."
+  },
+  {
+    "acronym": "DLP",
+    "full_name": "Data Loss Prevention",
+    "category": "Data Security",
+    "description": "Systeme und Richtlinien, die das unbefugte Abfließen sensibler Daten verhindern."
+  },
+  {
+    "acronym": "API",
+    "full_name": "Application Programming Interface",
+    "category": "Web & Application",
+    "description": "Schnittstelle, über die Anwendungen oder Dienste kontrolliert Funktionen und Daten austauschen."
+  },
+  {
+    "acronym": "ARO",
+    "full_name": "Annualized Rate of Occurrence",
+    "category": "Risk Management",
+    "description": "Erwartete Häufigkeit, mit der ein bestimmtes Risiko innerhalb eines Jahres eintritt."
+  },
+  {
+    "acronym": "AUP",
+    "full_name": "Acceptable Use Policy",
+    "category": "Governance & Compliance",
+    "description": "Richtlinie, die die zulässige Nutzung von Systemen, Daten und Unternehmensressourcen festlegt."
+  },
+  {
+    "acronym": "DKIM",
+    "full_name": "DomainKeys Identified Mail",
+    "category": "Cloud & Network",
+    "description": "E-Mail-Authentisierungsverfahren, das Nachrichten durch digitale Signaturen einer Domain zuordnet und Integrität prüft."
+  },
+  {
+    "acronym": "DMARC",
+    "full_name": "Domain-based Message Authentication, Reporting, and Conformance",
+    "category": "Cloud & Network",
+    "description": "Vorgabe für E-Mail-Domains, die SPF- und DKIM-Ergebnisse zusammenführt und Berichte sowie Maßnahmen definiert."
+  },
+  {
+    "acronym": "DNSSEC",
+    "full_name": "Domain Name System Security Extensions",
+    "category": "Cloud & Network",
+    "description": "Erweiterungen, die DNS-Antworten kryptografisch authentisieren und manipulierte Namensauflösung erkennen."
+  },
+  {
+    "acronym": "EDR",
+    "full_name": "Endpoint Detection and Response",
+    "category": "Monitoring & Operations",
+    "description": "Endpunktschutzlösung zur Erkennung, Untersuchung und Eindämmung verdächtiger Aktivitäten auf Geräten."
+  },
+  {
+    "acronym": "EF",
+    "full_name": "Exposure Factor",
+    "category": "Risk Management",
+    "description": "Anteil eines Vermögenswerts, der bei einem bestimmten Schadensereignis voraussichtlich verloren geht."
+  },
+  {
+    "acronym": "GRC",
+    "full_name": "Governance, Risk, and Compliance",
+    "category": "Governance & Compliance",
+    "description": "Integriertes Vorgehen zur Steuerung, Risikobehandlung und Einhaltung interner sowie externer Vorgaben."
+  },
+  {
+    "acronym": "IaC",
+    "full_name": "Infrastructure as Code",
+    "category": "Cloud & Network",
+    "description": "Bereitstellung und Verwaltung von Infrastruktur über versionierbare, wiederholbare Definitionen statt manueller Schritte."
+  },
+  {
+    "acronym": "ICS",
+    "full_name": "Industrial Control System",
+    "category": "Endpoint & Systems",
+    "description": "System zur Steuerung und Überwachung industrieller, physischer oder kritischer Prozesse."
+  },
+  {
+    "acronym": "IDPS",
+    "full_name": "Intrusion Detection and Prevention System",
+    "category": "Monitoring & Operations",
+    "description": "Sicherheitsfunktion, die Angriffe erkennt und erkannte Bedrohungen zusätzlich aktiv blockieren kann."
+  },
+  {
+    "acronym": "IPsec",
+    "full_name": "Internet Protocol Security",
+    "category": "Cryptography",
+    "description": "Protokollsammlung für Authentisierung, Integrität und Verschlüsselung auf Netzwerkebene, häufig in VPNs."
+  },
+  {
+    "acronym": "KRI",
+    "full_name": "Key Risk Indicator",
+    "category": "Risk Management",
+    "description": "Messwert, der frühzeitig auf steigende Eintrittswahrscheinlichkeit oder Auswirkung eines Risikos hinweist."
+  },
+  {
+    "acronym": "MAM",
+    "full_name": "Mobile Application Management",
+    "category": "Endpoint & Systems",
+    "description": "Verwaltet und schützt mobile Geschäftsanwendungen sowie deren Daten, auch auf privaten Geräten."
+  },
+  {
+    "acronym": "MDM",
+    "full_name": "Mobile Device Management",
+    "category": "Endpoint & Systems",
+    "description": "Zentrale Verwaltung von mobilen Geräten einschließlich Richtlinien, Konfiguration, Inventar und Fernlöschung."
+  },
+  {
+    "acronym": "MOA",
+    "full_name": "Memorandum of Agreement",
+    "category": "Governance & Compliance",
+    "description": "Formelle Vereinbarung, die gemeinsame Aufgaben, Verantwortlichkeiten und konkrete Verpflichtungen beschreibt."
+  },
+  {
+    "acronym": "MOU",
+    "full_name": "Memorandum of Understanding",
+    "category": "Governance & Compliance",
+    "description": "Absichtserklärung zwischen Parteien, die Ziele, Erwartungen und Zusammenarbeit dokumentiert."
+  },
+  {
+    "acronym": "MSA",
+    "full_name": "Master Service Agreement",
+    "category": "Governance & Compliance",
+    "description": "Rahmenvertrag, der allgemeine Bedingungen für mehrere zukünftige Dienstleistungen oder Aufträge festlegt."
+  },
+  {
+    "acronym": "NGFW",
+    "full_name": "Next-Generation Firewall",
+    "category": "Cloud & Network",
+    "description": "Firewall mit anwendungsbewusster Inspektion, Bedrohungserkennung und tiefer Paketprüfung."
+  },
+  {
+    "acronym": "PFS",
+    "full_name": "Perfect Forward Secrecy",
+    "category": "Cryptography",
+    "description": "Eigenschaft, bei der die spätere Offenlegung eines Schlüssels frühere verschlüsselte Sitzungen nicht lesbar macht."
+  },
+  {
+    "acronym": "PKI",
+    "full_name": "Public Key Infrastructure",
+    "category": "Cryptography",
+    "description": "Gesamtsystem aus Zertifizierungsstellen, Zertifikaten, Schlüsseln und Prozessen zur Verwaltung digitaler Vertrauensbeziehungen."
+  },
+  {
+    "acronym": "SCEP",
+    "full_name": "Simple Certificate Enrollment Protocol",
+    "category": "Identity & Access",
+    "description": "Protokoll zur automatischen Anforderung, Ausstellung und Erneuerung digitaler Zertifikate."
+  },
+  {
+    "acronym": "SCAP",
+    "full_name": "Security Content Automation Protocol",
+    "category": "Vulnerability Management",
+    "description": "Sammlung standardisierter Formate und Methoden zur automatisierten Konfiguration und Schwachstellenbewertung."
+  },
+  {
+    "acronym": "SDLC",
+    "full_name": "Software Development Life Cycle",
+    "category": "Web & Application",
+    "description": "Phasenmodell für Planung, Entwicklung, Test, Bereitstellung und Wartung von Software."
+  },
+  {
+    "acronym": "SDN",
+    "full_name": "Software-Defined Networking",
+    "category": "Cloud & Network",
+    "description": "Netzwerkarchitektur, die Steuerungs- und Weiterleitungsfunktion trennt und zentral konfigurierbar macht."
+  },
+  {
+    "acronym": "SD-WAN",
+    "full_name": "Software-Defined Wide Area Network",
+    "category": "Cloud & Network",
+    "description": "Softwaregesteuertes WAN, das Verkehrswege abhängig von Anwendung, Leistung und Sicherheitsrichtlinien auswählt."
+  },
+  {
+    "acronym": "SLA",
+    "full_name": "Service-Level Agreement",
+    "category": "Governance & Compliance",
+    "description": "Vertraglich vereinbarte Leistungsziele und Verantwortlichkeiten eines Dienstleisters."
+  },
+  {
+    "acronym": "SOC",
+    "full_name": "Security Operations Center",
+    "category": "Monitoring & Operations",
+    "description": "Organisatorische Funktion oder Team, das Sicherheitsereignisse kontinuierlich überwacht, untersucht und koordiniert."
+  },
+  {
+    "acronym": "SOP",
+    "full_name": "Standard Operating Procedure",
+    "category": "Governance & Compliance",
+    "description": "Dokumentierte, wiederholbare Anleitung für die sichere und konsistente Ausführung einer Tätigkeit."
+  },
+  {
+    "acronym": "SPF",
+    "full_name": "Sender Policy Framework",
+    "category": "Cloud & Network",
+    "description": "DNS-basierte Richtlinie, die festlegt, welche Mailserver E-Mails für eine Domain versenden dürfen."
+  },
+  {
+    "acronym": "SSO",
+    "full_name": "Single Sign-On",
+    "category": "Identity & Access",
+    "description": "Authentisierungsverfahren, bei dem eine Anmeldung den Zugriff auf mehrere verbundene Dienste ermöglicht."
+  },
+  {
+    "acronym": "SWG",
+    "full_name": "Secure Web Gateway",
+    "category": "Cloud & Network",
+    "description": "Sicherheitsdienst, der Webzugriffe filtert, Richtlinien erzwingt und schädliche Inhalte blockiert."
+  },
+  {
+    "acronym": "TLS",
+    "full_name": "Transport Layer Security",
+    "category": "Cryptography",
+    "description": "Kryptografisches Protokoll, das Vertraulichkeit, Integrität und Authentisierung für Netzwerkverbindungen bietet."
+  },
+  {
+    "acronym": "UEM",
+    "full_name": "Unified Endpoint Management",
+    "category": "Endpoint & Systems",
+    "description": "Zentrale Plattform zur Verwaltung von Mobilgeräten, Desktop-Rechnern und weiteren Endpunkten."
+  },
+  {
+    "acronym": "UPS",
+    "full_name": "Uninterruptible Power Supply",
+    "category": "Business Continuity",
+    "description": "Unterbrechungsfreie Stromversorgung, die Systeme bei Ausfällen kurzzeitig mit Energie versorgt."
+  },
+  {
+    "acronym": "UTM",
+    "full_name": "Unified Threat Management",
+    "category": "Cloud & Network",
+    "description": "Sicherheitsappliance, die mehrere Schutzfunktionen wie Firewall, Intrusion Prevention und Inhaltsfilterung bündelt."
+  }
+]
